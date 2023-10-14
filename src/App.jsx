@@ -1,16 +1,10 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
+import "./App.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Routers from "./routers";
 
 const App = () => {
-  return (
-    <>
-      <Navbar />
-      <div className="pt-[97px]">
-        <Home />
-      </div>
-    </>
-  );
+  return <Routers />;
 };
 
 export default App;
