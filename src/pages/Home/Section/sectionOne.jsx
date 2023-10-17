@@ -1,11 +1,11 @@
 import React from "react";
-import Mascot from "../../../assets/mascot.png";
+import MASCOT from "../../../assets/mascot1.svg";
 import { ButtonScroll } from "../../../components/Button";
 import Text from "../../../components/Text";
 
 const SectionOne = () => {
   return (
-    <div className="bg-bef-backdrop-blue bg-no-repeat bg-cover h-[699px] sm:h-screen flex flex-col-reverse md:flex-row overflow-hidden">
+    <div className="bg-bef-backdrop-blue bg-no-repeat bg-cover h-screen flex flex-col-reverse md:flex-row overflow-hidden">
       <div className="z-10 h-full w-full flex flex-col justify-center items-center md:items-start px-4 md:pl-10 lg:pl-[120px] gap-4 basis-4/5 md:basis-3/5">
         <Text variant="h1" color="white" weight="extrabold" shadow="text" className="text-center md:text-left">
           Brawijaya Entrepreneur Festival 2023
@@ -22,9 +22,9 @@ const SectionOne = () => {
       </div>
       <div className="relative flex justify-center mx-auto w-1/3 md:w-full basis-1/5 md:basis-2/5">
         <img
-          src={Mascot}
+          src={MASCOT}
           alt="Maskot BEF"
-          className="object-contain translate-y-12 sm:translate-y-16 md:translate-y-0 scale-125"
+          className="object-contain translate-y-24 sm:translate-y-20 md:translate-y-0 scale-125"
         />
       </div>
     </div>

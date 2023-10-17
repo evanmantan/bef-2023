@@ -11,7 +11,7 @@ const Expo = () => {
       <Helmet>
         <title>BEF | Expo</title>
       </Helmet>
-      <div className="bg-bef-backdrop-blue bg-no-repeat bg-cover h-[699px] sm:h-screen flex flex-col overflow-hidden items-center justify-center gap-8">
+      <div className="bg-bef-backdrop-blue bg-no-repeat bg-cover h-screen flex flex-col overflow-hidden items-center justify-center gap-8">
         <Text
           variant="h1"
           color="white"
@@ -37,10 +37,9 @@ const Expo = () => {
           Tentang Expo BEF 2023
         </Text>
         <Text color="white" shadow="text" className="w-2/3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores esse
-          rerum asperiores consequuntur eius veritatis qui impedit magnam
-          necessitatibus, quaerat inventore ad sit explicabo debitis recusandae
-          doloremque, deserunt quas perspiciatis.
+          Expo Brawijaya Entrepreneur Festival merupakan kegiatan yang bergerak
+          dalam bidang entrepreneurship sebagai wadah menumbuhkan jiwa wirausaha
+          bagi mahasiswa Universitas Brawijaya dan masyarakat umum.
         </Text>
       </div>
       <MedPart content={<SectionTwo />} />

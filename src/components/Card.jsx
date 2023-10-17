@@ -19,7 +19,7 @@ export const Card = ({
   return (
     <div
       className={classNames(
-        "bg-purple w-11/12 flex flex-col lg:flex-row mx-auto items-center justify-center p-8 my-12 gap-4",
+        "bg-purple w-11/12 md:w-9/12 flex flex-col lg:flex-row mx-auto items-center justify-center p-8 my-12 gap-4",
         FLIP[flip],
         className
       )}
@@ -33,7 +33,7 @@ export const Card = ({
         <Text color="white" shadow="text" className="text-center">
           {name}
         </Text>
-        <Text color="white" weight="base" className="text-center">
+        <Text color="white" weight="base" shadow="text" className="text-center">
           {position}
         </Text>
       </div>
@@ -59,7 +59,7 @@ export const MultiCard = ({ data, title, description }) => {
   return (
     <div
       className={classNames(
-        "bg-purple w-11/12 flex flex-col mx-auto items-center justify-center p-8 my-12 gap-4 text-center",
+        "bg-purple w-11/12 md:w-9/12 flex flex-col mx-auto items-center justify-center p-8 my-12 gap-4 text-center",
         classNames
       )}
     >
@@ -87,7 +87,7 @@ export const MultiCard = ({ data, title, description }) => {
               <Text color="white" shadow="text">
                 {data.name}
               </Text>
-              <Text color="white" weight="base">
+              <Text color="white" weight="base" shadow="text">
                 {data.position}
               </Text>
             </div>

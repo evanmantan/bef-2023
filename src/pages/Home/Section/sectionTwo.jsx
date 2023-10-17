@@ -1,6 +1,7 @@
 import React from "react";
 import Text from "../../../components/Text";
 import { AnimateSubDiv } from "../../../components/CustomDiv";
+import MASCOT from "../../../assets/mascot2.svg";
 
 const SectionTwo = () => {
   return (

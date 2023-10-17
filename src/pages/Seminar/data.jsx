@@ -1,42 +1,22 @@
-import SANDIAGA from "../../assets/seminar/sandiaga.png";
-import IVAN from "../../assets/seminar/ivan.png";
-import AHMAD from "../../assets/seminar/ahmad.png";
-import ARDANTYA from "../../assets/seminar/ardantya.png";
-import ARSJAD from "../../assets/seminar/arsjad.png";
-import RENDY from "../../assets/seminar/rendy.png";
-import VIRINGGA from "../../assets/seminar/viringga.png";
+import SANDIAGA from "../../assets/seminar/sandiaga.webp";
+import IVAN from "../../assets/seminar/ivan.webp";
+import AHMAD from "../../assets/seminar/ahmad.webp";
+import ARDANTYA from "../../assets/seminar/ardantya.webp";
+import ARSJAD from "../../assets/seminar/arsjad.webp";
+import RENDY from "../../assets/seminar/rendy.webp";
+import VIRINGGA from "../../assets/seminar/viringga.webp";
 
 export const keynoteSpeech = {
-  title: "Keynote Speech",
-  speakers: [
-    {
-      image: SANDIAGA,
-      name: "Sandiaga Salahuddin Uno",
-      position: "Menteri Pariwisata dan Ekonomi Kreatif Republik Indonesia",
-    },
-    {
-      image: IVAN,
-      name: "Ivan Halim",
-      position: "CMO Sevenpreneur",
-    },
-    {
-      image: RENDY,
-      name: "Rendy Sudigja",
-      position: "Founder Zaafer Indonesia",
-    },
-    {
-      image: VIRINGGA,
-      name: "Viringga Kusuma",
-      position: "CEO AMATI Indonesia",
-    },
-  ],
+  image: SANDIAGA,
+  name: "Sandiaga Salahuddin Uno",
+  position: "Menteri Pariwisata dan Ekonomi Kreatif Republik Indonesia",
 };
 
 export const seminarDay1 = [
   {
     image: ARSJAD,
     name: "Arsjad Rasjid",
-    position: "Best Executive in Indonesia",
+    position: "Indonesian Entrepreneur",
     title:
       "Sesi 1 : How The Creative Entrepreneur Can Contribute to Indonesia?",
     description:

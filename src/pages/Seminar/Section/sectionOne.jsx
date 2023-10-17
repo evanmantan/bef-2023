@@ -1,11 +1,12 @@
 import React from "react";
 import Text from "../../../components/Text";
+import HEADER from "../../../assets/seminar/header.webp";
 
 const SectionOne = () => {
   return (
     <>
-      <div className="bg-bef-backdrop-blue bg-no-repeat bg-cover h-[699px] sm:h-screen flex flex-col overflow-hidden items-center justify-center gap-8">
-        <Text
+      <div className="bg-bef-backdrop-blue bg-no-repeat bg-cover h-screen flex flex-col overflow-hidden items-center justify-center gap-8 sm:gap-4 lg:gap-0">
+        {/* <Text
           variant="h1"
           color="white"
           weight="bold"
@@ -14,10 +15,10 @@ const SectionOne = () => {
         >
           Creative Entrepreneurship in the Digital Era : A Path to Sustainable
           Development
-        </Text>
-        <hr className="w-2/5 border-2" />
+        </Text> */}
+        <img src={HEADER} alt="Seminar and Talkshow" className="relative scale-125 md:scale-100 lg:scale-90 w-3/4 max-w-max"/>
         <Text
-          variant="p2"
+          variant="h3"
           color="white"
           weight="bold"
           shadow="text"
@@ -27,8 +28,15 @@ const SectionOne = () => {
         </Text>
       </div>
       <div className="bg-orange flex flex-col items-center justify-center text-center gap-12 py-20">
-        <Text variant="h2" color="white" shadow="text" weight="extrabold">
-            Tentang Seminar BEF 2023
+        <Text
+          variant="h2"
+          color="white"
+          shadow="text"
+          weight="extrabold"
+          className="w-5/6"
+        >
+          Creative Entrepreneurship in the Digital Era : A Path to Sustainable
+          Development
         </Text>
         <Text color="white" shadow="text" className="w-2/3">
           Seminar dan Talkshow Brawijaya Entrepreneur Festival (BEF) "Creative

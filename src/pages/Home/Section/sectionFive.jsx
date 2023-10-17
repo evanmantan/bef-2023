@@ -86,10 +86,10 @@ const SectionFive = () => {
     },
     {
       image: PEOPLE2,
-      name: "Krishya Nandira",
-      winner: "Second Winner BEF 2021 Timbil Group from UI",
+      name: "Layin Qorin Anisyah",
+      winner: "Juara 3 Lomba Bravo BEF 2022",
       content:
-        "Selama mengikuti BEF kemarin, aku belajar banyak banget dari teamwork, sesi mentoring yang insightful datengin orang-orang yang emang ahli di bidangnya dan ngajarin banyak banget hal apalagi buat aku yang waktu itu masih kuliah, yang dijadikan permasalahan dalam kasus juga menarik sehingga kita bener-bener harus mengasah problem solving skills dan time management banget. Sangat exciting and fun banget pengalaman aku kemarin sampai jadi juara 2 itu karena memang aku tertarik sama topik kasus yang diangkat jadi aku ngerjainnya enjoy. Well done panitia BEF 2021 dan good luck panitia BEF 2022!",
+        "Menurutku, BEF tahun lalu banyak belajar dari mentoringnya. BEF juga ada pameran bisnis yang membuat awareness peserta meningkat. Saya juga senang karena bisa menjadi pemenang dari lomba BEF 2022, terutama pelajaran bisnis secara langsung.",
     },
     {
       image: PEOPLE3,

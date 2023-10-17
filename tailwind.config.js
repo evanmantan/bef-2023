@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "bef-backdrop-blue": "url(/src/assets/bef-backdrop-blue.png)",
-        "bef-backdrop-orange": "url(/src/assets/bef-backdrop-orange.png)",
+        "bef-backdrop-blue": "url(/src/assets/bef-backdrop-blue.webp)",
+        // "bef-backdrop-orange": "url(/src/assets/bef-backdrop-orange.png)",
       },
       colors: {
         navy: "#212135",

@@ -12,11 +12,18 @@ import { motion } from "framer-motion";
 const SectionTwo = () => {
   return (
     <div className="pt-24">
-      <MultiCard
-        data={keynoteSpeech.speakers}
-        title={keynoteSpeech.title}
-        description={keynoteSpeech.description}
-      />
+            <div className="bg-gold w-full px-5 py-3 mx-auto mt-32 -bottom-12 relative z-10 text-center shadow-lg shadow-black">
+        <Text variant="h2" weight="extrabold" color="navy">
+          KEYNOTE SPEECH
+        </Text>
+      </div>
+      <div className="bg-purple flex flex-col w-11/12 md:w-7/12 lg:w-5/12 p-12 pt-20 items-center justify-center mx-auto">
+        <img src={keynoteSpeech.image} alt="Sandiaga Uno" className="max-w-min w-11/12 sm:w-7/12 mb-4 md:mb-8" />
+        <Text variant="h3" color="white" weight="bold" shadow="text">
+          {keynoteSpeech.name}
+        </Text>
+        <Text color="white" weight="base">{keynoteSpeech.position}</Text>
+      </div>
       <div className="bg-gold w-full px-5 py-3 mx-auto mt-32 -bottom-14 relative z-10 text-center shadow-lg shadow-black">
         <Text variant="h2" weight="extrabold" color="navy">
           HARI PERTAMA

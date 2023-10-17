@@ -4,6 +4,7 @@ import MedPart from "../../components/MedPart";
 import SectionTwo from "./Section/sectionTwo";
 import Text from "../../components/Text";
 import { AnimateDiv } from "../../components/CustomDiv";
+import HEADER from "../../assets/investor-forum/header.webp";
 
 const InvestorForum = () => {
   return (
@@ -11,8 +12,8 @@ const InvestorForum = () => {
       <Helmet>
         <title>BEF | Investor Forum</title>
       </Helmet>
-      <div className="bg-bef-backdrop-blue bg-no-repeat bg-cover h-[699px] sm:h-screen flex flex-col overflow-hidden items-center justify-center gap-8">
-        <Text
+      <div className="bg-bef-backdrop-blue bg-no-repeat bg-cover h-screen flex flex-col overflow-hidden items-center justify-center gap-8">
+        {/* <Text
           variant="h1"
           color="white"
           weight="bold"
@@ -21,10 +22,10 @@ const InvestorForum = () => {
         >
           The Role of Entrepreneur in Achieving SDGs 2030 Through
           Creativepreneurship and Implementation of a Sustainable Economy
-        </Text>
-        <hr className="w-2/5 border-2" />
+        </Text> */}
+        <img src={HEADER} alt="Investor Forum" className="relative scale-125 md:scale-100 w-3/4 max-w-max" />
         <Text
-          variant="p2"
+          variant="h3"
           color="white"
           weight="bold"
           shadow="text"

@@ -1,17 +1,17 @@
 import React from "react";
 import MenuWidget from "../../../components/MenuWidget";
-import ABOUT from "../../../assets/homepage/about-us.svg";
-import SEMINAR from "../../../assets/homepage/seminar.svg";
-import EXPO from "../../../assets/homepage/expo.svg";
-import FORUM from "../../../assets/homepage/investor-forum.svg";
-import LIVESTREAM from "../../../assets/homepage/live-streaming.svg";
+import ABOUT from "../../../assets/homepage/about-us.webp";
+import SEMINAR from "../../../assets/homepage/seminar.webp";
+import EXPO from "../../../assets/homepage/expo.webp";
+import FORUM from "../../../assets/homepage/investor-forum.webp";
+import LIVESTREAM from "../../../assets/homepage/live-streaming.webp";
 import Text from "../../../components/Text";
 import { AnimateSubDiv } from "../../../components/CustomDiv";
 
 const SectionThree = () => {
   return (
     <div
-      className="py-32 my-16 flex flex-col justify-center items-center gap-8 mx-auto bg-bef-backdrop-orange h-screen bg-no-repeat bg-cover"
+      className="py-32 my-16 flex flex-col justify-center items-center gap-8 mx-auto h-screen bg-no-repeat bg-cover"
       name="whatsOn"
     >
       <AnimateSubDiv>
