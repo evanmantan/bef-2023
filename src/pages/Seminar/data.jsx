@@ -33,8 +33,8 @@ export const seminarDay1 = [
   {
     image: AHMAD,
     name: "Ahmad Syaifullah M.T.I",
-    position: "CTO Chickin",
-    title: "Sesi 3 : How To Build My First Business : Business Model",
+    position: "CTO of Chickin Indonesia",
+    title: "Sesi 3 : How To Build My First Business : Business Model For Startup",
     description:
       "Mempelajari konsep dasar pembuatan model bisnis, termasuk pemilihan segmen pasar, nilai proposisi, sumber pendapatan, dan saluran distribusi, serta bagaimana menerapkannya dalam perencanaan bisnis mereka untuk memulai usaha pertama mereka.",
   },
@@ -48,7 +48,7 @@ export const seminarDay2Session1 = {
     {
       image: IVAN,
       name: "Ivan Halim",
-      position: "CMO Sevenpreneur",
+      position: "CMO of Sevenpreneur",
     },
     {
       image: RENDY,
@@ -61,7 +61,7 @@ export const seminarDay2Session1 = {
 export const seminarDay2Session2 = {
   image: VIRINGGA,
   name: "Viringga Kusuma",
-  position: "CEO AMATI Indonesia",
+  position: "CEO of AMATI Indonesia",
   title: "Sesi 2 : Eco-Entrepreneurship: Building Sustainable Startups",
   description:
     "Mengidentifikasi peluang bisnis berkelanjutan dalam konteks lingkungan, belajar tentang praktik bisnis hijau, dan memahami bagaimana mendirikan startup yang berfokus pada keberlanjutan dengan dampak positif pada lingkungan dan masyarakat.",
