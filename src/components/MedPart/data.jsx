@@ -23,10 +23,14 @@ import MEDPAR20 from "../../assets/medPart/20.webp";
 // Sponsor
 import FITNESSPLUS from "../../assets/medPart/l-fitness-plus.webp";
 import IKAUB from "../../assets/medPart/l-ika-ub.webp";
-import AICE from "../../assets/medPart/m-aice.webp";
+import IWAN from "../../assets/medPart/l-iwan-music.png";
+import APBS from "../../assets/medPart/l-apbs.png";
+import BENING from "../../assets/medPart/l-bening-malang.jpg";
 import CHICKIN from "../../assets/medPart/m-chickin.webp";
 import JIWATER from "../../assets/medPart/m-jiwater.webp";
-import SABOTEN from "../../assets/medPart/m-saboten.webp";
+import AMAZING from "../../assets/medPart/m-amazing-malang.jpeg";
+import AICE from "../../assets/medPart/s-aice.webp";
+import SABOTEN from "../../assets/medPart/s-saboten.webp";
 import BINGSOO from "../../assets/medPart/s-bingsoo.webp";
 import CUSTOMCRAFT from "../../assets/medPart/s-custom-craft.jpeg";
 import EXCELSO from "../../assets/medPart/s-excelso.webp";
@@ -35,6 +39,12 @@ import KAMERAMALANG from "../../assets/medPart/s-kamera-malang.jpeg";
 import SRIREJEKI from "../../assets/medPart/s-sri-rejeki.webp";
 import WIKACELL from "../../assets/medPart/s-wikacell.webp";
 import YAKULT from "../../assets/medPart/s-yakult.jpeg";
+import EMINA from "../../assets/medPart/s-emina.png";
+import KAHF from "../../assets/medPart/s-kahf.png";
+import PRODIA from "../../assets/medPart/s-klinik-prodia.png";
+import OPTIK from "../../assets/medPart/s-optik-indonesia.png";
+import WARDAH from "../../assets/medPart/s-wardah.png";
+import LAPIS from "../../assets/medPart/s-lapis-malang.webp";
 
 export const mediaPartner = [
   { image: MEDPAR01, alt: "Logo Media Partner", className: "bg-white" },
@@ -59,14 +69,31 @@ export const mediaPartner = [
   { image: MEDPAR20, alt: "Logo Media Partner", className: "bg-white" },
 ];
 
-export const sponsor = [
+export const sponsorLarge = [
   {
     image: FITNESSPLUS,
     alt: "Fitness Plus",
-    className: "bg-black w-7/12 md:w-5/12 p-8  md:scale-75",
+    className: "bg-black w-7/12 md:w-3/12 scale-100 md:scale-105 p-8 ",
   },
-  { image: IKAUB, alt: "IKA UB", className: "w-7/12 md:w-5/12 md:scale-75" },
-  { image: AICE, alt: "Aice", className: "w-5/12 md:w-1/5 mx-auto bg-white" },
+  {
+    image: APBS,
+    alt: "PT Alur Pelayaran Barat Surabaya",
+    className: "w-7/12 md:w-3/12 scale-100 md:scale-105",
+  },
+  {
+    image: BENING,
+    alt: "Bening's Malang",
+    className: "w-7/12 md:w-3/12 scale-100 md:scale-105",
+  },
+  { image: IKAUB, alt: "IKA UB", className: "w-7/12 md:w-3/12 scale-100 md:scale-105 mx-auto md:mx-8" },
+  {
+    image: IWAN,
+    alt: "Iwan Musik Production",
+    className: "w-7/12 md:w-3/12 scale-100 md:scale-105 mx-auto md:mx-8",
+  },
+];
+
+export const sponsorMedium = [
   {
     image: CHICKIN,
     alt: "Chickin",
@@ -74,9 +101,27 @@ export const sponsor = [
   },
   { image: JIWATER, alt: "Jiwater", className: "w-5/12 md:w-1/5 mx-auto" },
   {
+    image: WIKACELL,
+    alt: "Wikacell",
+    className: "relative scale-125 w-5/12 md:w-1/5 mx-auto",
+  },
+  {
+    image: AMAZING,
+    alt: "Amazing Malang",
+    className: "w-5/12 md:w-1/5 mx-auto p-2 bg-black",
+  },
+];
+
+export const sponsorSmall = [
+  {
+    image: AICE,
+    alt: "Aice",
+    className: "w-1/4 md:w-1/6 mx-auto bg-white scale-90",
+  },
+  {
     image: SABOTEN,
     alt: "Saboten",
-    className: "w-5/12 md:w-1/5 mx-auto scale-125",
+    className: "w-1/4 md:w-1/6 mx-auto",
   },
   {
     image: CUSTOMCRAFT,
@@ -101,9 +146,34 @@ export const sponsor = [
     className: "w-1/4 md:w-1/6 mx-auto",
   },
   {
-    image: WIKACELL,
-    alt: "Wikacell",
-    className: "relative scale-125 w-1/4 md:w-1/6 mx-auto",
+    image: EMINA,
+    alt: "Emina",
+    className: "w-1/4 md:w-1/6 mx-auto",
+  },
+  {
+    image: KAHF,
+    alt: "Kahf",
+    className: "w-1/4 md:w-1/6 mx-auto",
+  },
+  {
+    image: PRODIA,
+    alt: "Klinik Prodia",
+    className: "w-1/4 md:w-1/6 mx-auto",
+  },
+  {
+    image: OPTIK,
+    alt: "Optik Indonesia",
+    className: "w-1/4 md:w-1/6 mx-auto",
+  },
+  {
+    image: WARDAH,
+    alt: "Wardah",
+    className: "w-1/4 md:w-1/6 mx-auto",
+  },
+  {
+    image: LAPIS,
+    alt: "Lapis Malang",
+    className: "w-1/4 md:w-1/6 mx-auto",
   },
   {
     image: EXCELSO,
